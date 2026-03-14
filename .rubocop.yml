@@ -1,0 +1,34 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.4
+  SuggestExtensions: false
+
+Layout/LineLength:
+  Max: 160
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/AbcSize:
+  Max: 60
+
+Metrics/ModuleLength:
+  Max: 500
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
