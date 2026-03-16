@@ -3,7 +3,7 @@
 require_relative 'lib/legion/extensions/habit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'legion-extensions-habit'
+  spec.name          = 'lex-habit'
   spec.version       = Legion::Extensions::Habit::VERSION
   spec.authors       = ['Matthew Iverson']
   spec.email         = ['matt@legionIO.com']
@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['lib/**/*']
   spec.require_paths = ['lib']
+  spec.add_development_dependency 'legion-gaia'
 end
